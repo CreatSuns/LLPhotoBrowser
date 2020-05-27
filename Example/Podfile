@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'LSJHPhotoBrowser_Example' do
+  pod 'LSJHPhotoBrowser', :path => '../'
+
+  target 'LSJHPhotoBrowser_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
