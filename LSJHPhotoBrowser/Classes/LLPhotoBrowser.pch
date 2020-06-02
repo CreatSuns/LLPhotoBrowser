@@ -9,8 +9,8 @@
 #define LLPhotoBrowser_pch
 
 #import <LSJHCategory/LLCategory.h>
-#import <LSJHProgressView/WYAProgressView.h>
-#import <LSJHImageCropController/WYAImageCropViewController.h>
+#import <LSJHProgressView/LLProgressView.h>
+#import <LSJHImageCropController/LLImageCropViewController.h>
 #import <LSJHCamera/LSJHCamera.h>
 #import <Masonry/Masonry.h>
 #import <SDWebImage/UIImageView+WebCache.h>

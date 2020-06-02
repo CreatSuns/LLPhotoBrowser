@@ -1,4 +1,4 @@
-# WYAPhotoBrowser
+# LLPhotoBrowser
 
 ## 功能
 
@@ -41,11 +41,11 @@ callBackBlock|返回选中的照片|block|-
 - 导入头文件
 
 ```objective-c
-#import <WYAKit/WYAPhotoBrowser.h>
+
 ```
 
 ```objective-c
-WYAPhotoBrowser * photo = [[WYAPhotoBrowser alloc] initWithMaxCount:5];
+LLPhotoBrowser * photo = [[LLPhotoBrowser alloc] initWithMaxCount:5];
 photo.callBackBlock     = ^(NSMutableArray<UIImage *> * _Nonnull images) {
     
 };
